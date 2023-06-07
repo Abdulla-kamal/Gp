@@ -1473,6 +1473,12 @@ footer .box:last-child {
   width: 380px;
 }
 
+@media (max-width: 380px) {
+  footer .box:last-child {
+    width: 100%;
+  }
+}
+
 footer .box:last-child p {
   margin-top: 0;
   margin-bottom: 1rem;
